@@ -47,6 +47,19 @@ body {
   }
 }
 
+.g-button {
+  color: white;
+  background-color: #3FAF67;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75em 3em;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
 /**Nav**/
 nav .cajaNav {
   font-family: "Nunito Sans", sans-serif;
@@ -249,18 +262,6 @@ nav .navB {
 }
 #p-index img {
   margin: 20px 0;
-}
-#p-index button {
-  color: white;
-  background-color: #3FAF67;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 5px;
-  padding: 0.75em 3em;
-  margin: 5px 0;
-  cursor: pointer;
 }
 
 /**Seccion introduccion proyectos**/
