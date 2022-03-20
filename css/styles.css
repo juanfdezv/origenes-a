@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  background-color: var(--blanco);
+  font-family: "Nunito Sans", sans-serif;
+}
+
 /**Clases Globales**/
 .g-tituloPrincipal {
   font-size: 57px;
@@ -221,6 +226,43 @@ nav .navB {
 }
 
 /**Index**/
+#p-index #landing {
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+#p-index #landing p {
+  padding: 10px;
+  margin: 20px 0;
+}
+#p-index img {
+  margin: 20px 0;
+}
+#p-index button {
+  color: white;
+  background-color: #3FAF67;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75em 3em;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
 /**Seccion introduccion proyectos**/
 #introProyectos {
   display: -webkit-box;
