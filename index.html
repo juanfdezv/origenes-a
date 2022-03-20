@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body id="p-index">
+    <nav>
+        <div class="cajaNav"> 
+            <div class="titNav">
+                <a class="logo" href="index.html">
+                    <img src="https://iili.io/1hgAUG.png" alt="logo">
+                </a>         
+            </div>      
+            <a class="toggle" onclick="alternar('menu')">
+                <img src="https://iili.io/1ymMmX.png" alt="">
+            </a>
+            <ul class="barNav navA"> 
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="proyectos.html">PROYECTOS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+            </ul>       
+            <div class="botones">   
+                <a href="#">
+                    <img src="https://iili.io/GEGe8G.png" alt="icono instagram">
+                </a>
+                <a href="#">
+                  <img src="https://iili.io/GEGOas.png" alt="icono facebook">
+                </a>
+            </div>
+        </div>
+        <ul class="barNav navB cerrado" id="menu"> 
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li><a href="proyectos.html">PROYECTOS</a></li>
+            <li><a href="servicios.html">SERVICIOS</a></li>
+        </ul>  
+    </nav> 
+    <main>
+        <section id="introProyectos">
+            <p class="g-tituloSeccion">Se trabaja cada proyecto como si fuese el primero</p>
+            <div class="contenedorCards">
+                <div class="cards card1">
+                    <img src="https://iili.io/GIktMG.jpg" class="card-img" alt="...">
+                    <div>
+                        <h2 class="g-tituloCards">Espacio de reunión</h5>
+                        <p>Creamos ambientes que propicien a la reunión con amigos y familia.</p>
+                    </div>
+                </div>
+                <div class="cards card2">
+                    <img src="https://iili.io/GIkK2p.jpg" class="card-img" alt="...">
+                    <div>
+                        <h2 class="g-tituloCards">Patio pequeño</h5>
+                        <p>Revalorizar pequeños espacios entendiendo su potencial y explotándolo.</p>
+                    </div>
+                </div>
+                <div class="cards card3">
+                    <img src="https://iili.io/GIku44.jpg" class="card-img" alt="...">
+                    <div>
+                        <h2 class="g-tituloCards">Jerarquización de un sector</h5>
+                        <p>Trabajamos cada espacio como un todo, pero en este buscamos destacar ciertos sectores.</p>
+                    </div>
+                </div>
+            </div>
+            <button>VER MAS PROYECTOS</button>
+        </section>
+    </main>    
+    <script>
+    function alternar(menu)
+    {
+        var oMenu = document.getElementById(menu);
+    //Si el menu tiene clase abierto
+    //cambia clase a cerrado y cambia el botón
+    if (oMenu.classList.contains('abierto')){
+        oMenu.classList.remove('abierto');
+        oMenu.classList.add('cerrado');
+        //event.target.innerText = 'Abrir'
+    }
+    //Si no está abierto, cambia clase a abierto y cambia el botón 
+    else{
+        oMenu.classList.remove('cerrado');
+        oMenu.classList.add('abierto');
+        //event.target.innerText = 'Cerrar'
+        }
+    }
+    </script>      
+</body>
+</html>
