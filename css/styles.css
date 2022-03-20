@@ -7,15 +7,13 @@
 /**Clases Globales**/
 .g-tituloPrincipal {
   font-size: 57px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
-
 @media (min-width: 481px) and (max-width: 992px) {
   .g-tituloPrincipal {
     font-size: 36px;
   }
 }
-
 @media (max-width: 480px) {
   .g-tituloPrincipal {
     font-size: 32px;
@@ -24,9 +22,8 @@
 
 .g-tituloSeccion {
   font-size: 45px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
-
 @media (max-width: 992px) {
   .g-tituloSeccion {
     font-size: 28px;
@@ -35,10 +32,9 @@
 
 .g-tituloCards {
   font-size: 32px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
 }
-
 @media (max-width: 992px) {
   .g-tituloCards {
     font-size: 24px;
@@ -48,7 +44,7 @@
 
 /**Nav**/
 nav .cajaNav {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   display: -webkit-box;
@@ -60,7 +56,6 @@ nav .cajaNav {
   -webkit-box-shadow: 4px 4px whitesmoke;
           box-shadow: 4px 4px whitesmoke;
 }
-
 nav .cajaNav .barNav {
   margin: 0 10px 0 0;
   display: -webkit-box;
@@ -78,7 +73,6 @@ nav .cajaNav .barNav {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
-
 nav .cajaNav .barNav li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,17 +83,14 @@ nav .cajaNav .barNav li {
   padding: 0 20px;
   height: 100%;
 }
-
 nav .cajaNav .barNav li:hover {
   cursor: pointer;
 }
-
 nav .cajaNav .barNav li a {
   text-decoration: none;
   cursor: pointer;
   color: inherit;
 }
-
 nav .cajaNav .titNav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,16 +105,13 @@ nav .cajaNav .titNav {
   height: auto;
   width: 348px;
 }
-
 nav .cajaNav .titNav .toggle {
   display: none;
 }
-
 nav .cajaNav .titNav img {
   width: 123px;
   height: auto;
 }
-
 nav .cajaNav .botones {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,20 +124,16 @@ nav .cajaNav .botones {
           align-items: center;
   width: 340px;
 }
-
 nav .cajaNav .botones a {
   text-decoration: none;
   margin: 0 40px 0 0;
 }
-
 nav .cajaNav .toggle {
   display: none;
 }
-
 nav .navB {
   display: none;
 }
-
 @media (max-width: 992px) {
   nav {
     display: -webkit-box;
@@ -173,7 +157,7 @@ nav .navB {
         -ms-flex-align: center;
             align-items: center;
     background-color: #f2ecde;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
     font-size: 18px;
   }
@@ -251,11 +235,9 @@ nav .navB {
           align-items: center;
   text-align: center;
 }
-
 #introProyectos p {
   margin: 20px;
 }
-
 #introProyectos .contenedorCards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -267,14 +249,12 @@ nav .navB {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 #introProyectos .contenedorCards img {
   min-height: 420px;
   width: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 #introProyectos .contenedorCards .cards {
   height: 570px;
   width: 330px;
@@ -290,15 +270,12 @@ nav .navB {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 #introProyectos .contenedorCards .card1 {
   margin-top: 150px;
 }
-
 #introProyectos .contenedorCards .card3 {
   margin-top: 100px;
 }
-
 @media (max-width: 992px) {
   #introProyectos .contenedorCards {
     -webkit-box-pack: center;
@@ -325,5 +302,4 @@ nav .navB {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
