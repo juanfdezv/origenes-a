@@ -91,7 +91,7 @@ nav{
         }
         .titNav{
             display: flex;
-            justify-content: end;
+            justify-content: flex-end;
             align-items: center;
             color: #000;
             height: auto;
@@ -106,7 +106,7 @@ nav{
         }
         .botones{
             display: flex;
-            justify-content: start;
+            justify-content: flex-start;
             align-items: center;
             width: 340px;
             a{
@@ -149,7 +149,7 @@ nav{
                 display: none;
             }
             .titNav{
-                justify-content: start;
+                justify-content: flex-start;
                 order: 1;
             }
             .toggle{
@@ -159,7 +159,7 @@ nav{
             }
             .botones{
                 order: 3;
-                justify-content: end;
+                justify-content: flex-end;
                 flex-grow: 1;
                 margin: 0 10px;
                 a{
