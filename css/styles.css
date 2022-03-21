@@ -262,6 +262,9 @@ nav .navB {
 }
 #p-index #landing img {
   margin: 20px 0;
+  width: 100%;
+  max-width: 1040px;
+  height: auto;
 }
 
 /**Seccion introduccion proyectos**/
