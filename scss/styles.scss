@@ -16,6 +16,8 @@ body {
 .g-tituloPrincipal{
     font-size: $headline1;
     font-family: 'Playfair Display', serif;
+    text-align: center;
+    line-height: 4rem;
     @media(min-width:481px) and (max-width: 992px){
         font-size: $headline3;
     }

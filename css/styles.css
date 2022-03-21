@@ -13,6 +13,8 @@ body {
 .g-tituloPrincipal {
   font-size: 57px;
   font-family: "Playfair Display", serif;
+  text-align: center;
+  line-height: 4rem;
 }
 @media (min-width: 481px) and (max-width: 992px) {
   .g-tituloPrincipal {
