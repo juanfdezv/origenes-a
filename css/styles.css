@@ -83,7 +83,7 @@ body {
 }
 
 /**Mixins y extends**/
-#introProyectos, #p-servicios #principalServicios, #p-servicios #arquitecturaGeneral {
+#introProyectos, #p-servicios #principalServicios, #p-servicios #arquitecturaGeneral, #p-servicios #renovar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -573,6 +573,80 @@ nav .navB {
     margin-bottom: 31px;
     margin-right: 0;
   }
+}
+
+#p-servicios #renovar .imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-top: 48px;
+}
+
+#p-servicios #renovar .imagen .contenedorImagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#p-servicios #renovar .imagen .contenedorImagen img {
+  max-width: 508px;
+  width: 100%;
+  height: 456px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px;
+}
+
+#p-servicios #renovar .imagen .contenedorImagen :first-child {
+  margin-top: 104px;
+}
+
+@media (max-width: 720px) {
+  #p-servicios #renovar .imagen .contenedorImagen :first-child {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 551px) {
+  #p-servicios #renovar .imagen {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #p-servicios #renovar .imagen .contenedorImagen {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  #p-servicios #renovar .imagen .contenedorImagen img {
+    max-width: 328px;
+  }
+}
+
+#p-servicios #renovar .texto :first-child {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 102px 0 24px 0;
+}
+
+#p-servicios #renovar .texto :last-child {
+  font-size: 18px;
+  max-width: 508px;
+  margin-bottom: 120px;
 }
 
 /**Nosotros**/
